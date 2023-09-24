@@ -1,3 +1,3 @@
 FROM alpine:3.14
-RUN yum install apache -y
+RUN apk update && apk add apache2
 
