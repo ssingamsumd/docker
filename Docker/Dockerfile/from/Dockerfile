@@ -1,4 +1,4 @@
 FROM almalinux:8
 #CMD ["ping", "-c5", "google.com" ]
-CMD ["pwd"]
+ENTRYPOINT ["pwd"]
 CMD ["httpd", "FOREGROUND"]
