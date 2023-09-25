@@ -1,4 +1,4 @@
 FROM almalinux:8
 #CMD ["ping", "-c5", "google.com" ]
-CMD [for(i=1;1<=10;i++); echo "yashuu be positive"]
+CMD [for i in {1..10}; do echo "yashuu be positive"; done]
 
