@@ -1,5 +1,4 @@
-FROM alpine:3.14
-RUN apk update && apk add apache2
-CMD ["sleep", "60"]
-CMD ["httpd", "-D", "FOREGROUND"]
+FROM almalinux:8
+#CMD ["ping", "-c5", "google.com" ]
+CMD [for(i=1;1<=10;i++); echo "yashuu be positive"]
 
