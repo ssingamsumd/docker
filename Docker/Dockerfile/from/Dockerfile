@@ -1,5 +1,5 @@
 FROM almalinux:8
-RUN cd /tmp/hello.txt
+RUN cd /tmp/echo "hello" > hello.txt
 
 
 
