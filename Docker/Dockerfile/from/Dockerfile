@@ -1,5 +1,6 @@
-FROM almalinux:8
-RUN cd /tmp/echo "hello" > hello.txt
+FROM alpinelinux:3
+ARG yashuu
+RUN echo "${yashuu}"
 
 
 
