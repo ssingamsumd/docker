@@ -1,4 +1,4 @@
-FROM alpinelinux:3
+FROM almalinux:8
 ARG yashuu
 RUN echo "${yashuu}"
 
