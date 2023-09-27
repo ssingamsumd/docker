@@ -1,7 +1,6 @@
-ARG singam
-FROM almalinux:${singam}
-ARG yashuu
-RUN echo "${yashuu}"
+FROM almalinux:8
+ENV yashuu =yyyyy
+CMD [ "${yashuu}" ]
 
 
 
