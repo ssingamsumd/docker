@@ -1,5 +1,5 @@
 FROM almalinux:8
-ENV yashuu =yyyyy
+ENV yashuu=yyyyy
 CMD [ "${yashuu}", "FOREGROUND" ]
 
 
