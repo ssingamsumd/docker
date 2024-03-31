@@ -1,7 +1,0 @@
-FROM almalinux:8
-ARG GOOD
-ENV YASHU=SUPERSEXY
-RUN echo "${YASHU}"
-
-
-
